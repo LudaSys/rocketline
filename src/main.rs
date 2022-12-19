@@ -1,3 +1,8 @@
+mod args;
+use args::RocketLineArgs;
+use clap::Parser;
+
+
 fn main() {
-    println!("Hello, world!");
+    let args = RocketLineArgs::parse();
 }
